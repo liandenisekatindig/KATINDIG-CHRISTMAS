@@ -977,108 +977,303 @@ line-height: 1.5rem;
   }
 }
 /* TRADITION BANNER */
-.traditionBanner {
+.traditionBanner{
   padding: 5rem 0;
 }
-traditionBanner__wrapper {
+.traditionBanner__wrapper{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.traditionBanner h1 {
+.traditionBanner h1{
   font-size: 8rem;
   color: var(--clr-primary);
   letter-spacing: -0.5rem;
 }
-.traditionBanner h5 {
-color: var(--clr-secondary);
-font-style: italic;
-font-size: 2rem;
-font-family: var(--font-secondary);
-max-width: 48rem;
-text-align: center;
+.traditionBanner h5{
+  color: var(--clr-secondary);
+  font-style: italic;
+  font-weight: 200;
+  font-size: 2rem;
+  font-family: var(--font-secondary);
+  max-width: 48rem;
+  text-align: center;
 }
-.traditionBanner span{
-  font-size: 8rem;
-  color: var(--clr-primary);
-  letter-spacing: unset;
-}
-.traditionBanner h2 {
-  font-size: 3rem;
-  line-height: 4rem;
-}
-.traditonBanner img {
+.traditionBanner img{
   width: 40%;
   margin-bottom: 5rem;
 }
-.traditioonBanner__card{
+.traditionBanner__card{
   margin-top: 5rem;
   padding: 5rem 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 5rem;
 }
-traditionBanner__card img {
+.traditionBanner__card img{
   width: 100rem;
-margin-top: 0.4rem;
-}
+  margin-bottom: 0.4rem;
+} 
 
-/* TRADITION MODILE */
-@media creen and (max-width:520px) {
-  .traditionBanner {
+/* TRADITION MOBILE */
+@media screen and (max-width: 520px){
+  .traditionBanner{
     padding-top: 10rem;
   }
-.traditionBanner h1 {
- font-size: 3.9rem;
- margin-bottom: 0.5rem;
- letter-spacing: un;
-}
-.traditionBanner h5 {
-  font-size: 2rem;
-  letter-spacing: -0.1rem;
-}
-.traditon {
-  padding: 2.5rem 0;
-}
-.traditionBanner__card h2 {
-  font-size: 3rem;
-  line-height: 4rem;
-}
-.traditionBanner__card {
-  grid-template-columns: 1fr;
-  gap: 3rem;
-}
-.traditionBanner__wrapper{
-  grid-template-columns: 1fr;
-  gap: unset;
-}
-.traditionBanner img {
-  width: 100%;
+  .traditionBanner h1{
+    font-size: 3.9rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: unset;
+  }
+  .traditionBanner h5{
+    font-size: 2rem;
+    letter-spacing: -0.1rem;
+  }
+  .tradition{
+    padding: 2.5rem 0;
+  }
+  .traditionBanner__card h2{
+    font-size: 3rem;
+    line-height: 4rem;
+   }
+   .traditionBanner__card{
+    grid-template-columns: 1fr;
+    gap: 3rem;
+   }
+   .tradition__wrapper{
+    grid-template-columns: 1fr;
+    gap: unset;
+   }
+   .traditionBanner img{
+    width: 100%;
 }
 }
 /* CAROLS BANNER */
-.carolBanner {
+.carolsBanner{
   padding: 5rem 0;
 }
-.carolsBanner__wrapper {
+.carolsBanner .card__details h3 {
+  font-size: 3rem;
+  /* line-height: 3rem; */
+  font-family: var(--font--secondary);
+  color: var(--clr-primary);
+  padding: 1rem 0;
+}
+.carolsBanner__wrapper{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.carolsBanner h1 {
+.carolsBanner h1{
   font-size: 8rem;
   color: var(--clr-primary);
   letter-spacing: -0.5rem;
 }
-.carolsBanner h5 {
+.carolsBanner h5{
   color: var(--clr-secondary);
   font-style: italic;
   font-weight: 200;
   font-size: 2rem;
   font-family: var(--font-secondary);
+  max-width: 48rem;
+  text-align: center;
 }
+.carolsBanner img{
+  width: 40%;
+  margin-bottom: 5rem;
+}
+.carolsBanner__card{
+  margin-top: 5rem;
+  padding: 5rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem;
+}
+.carolsBanner__card img{
+  width: 100rem;
+  margin-bottom: 0.4rem;
+}
+
+/* CAROLS MOBILE */
+@media screen and (max-width: 520px){
+  .carolsBanner{
+    padding-top: 10rem;
+  }
+  .carolsBanner h1{
+    font-size: 5rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.5rem;
+    line-height: 4rem;
+  }
+  .carolsBanner h5{
+    font-size: 2rem;
+    letter-spacing: 0rem;
+  }
+  .carols{
+    padding: 2.5rem 0;
+  }
+  .carolsBanner__card h2{
+    font-size: 3rem;
+    line-height: 4rem;
+   }
+   .carolsBanner__card{
+    grid-template-columns: 1fr;
+    gap: 3rem;
+   }
+   .carols__wrapper{
+    grid-template-columns: 1fr;
+    gap: unset;
+   }
+   .carolsBanner img{
+    width: 100%;
+}
+}
+
+/* DECORS BANNER */
+.decorsBanner{
+  padding: 5rem 0;
+}
+.decorsBanner__wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.decorsBanner h1{
+  font-size: 8rem;
+  color: var(--clr-primary);
+  letter-spacing: -0.5rem;
+}
+.decorsBanner h5{
+  color: var(--clr-secondary);
+  font-style: italic;
+  font-weight: 200;
+  font-size: 2rem;
+  font-family: var(--font-secondary);
+  max-width: 48rem;
+  text-align: center;
+}
+.decorsBanner img{
+  width: 40%;
+  margin-bottom: 5rem;
+}
+.decorsBanner__card{
+  margin-top: 5rem;
+  padding: 5rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem;
+}
+.decorsBanner__card img{
+  width: 100rem;
+  margin-bottom: 0.4rem;
+}
+
+/* F&D BANNER */
+.fndBanner {
+  padding: 1rem 0;
+  margin-bottom: 10rem;
+}
+.fndBanner__wrapper {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 5rem;
+  flex-direction: column;
+}
+.fndBanner__wrapper img {
+  width: 50rem;
+  height: 35rem;
+}
+
+.fndBanner__wrapper h1 {
+  font-size: 8rem;
+  color: var(--clr-primary);
+  letter-spacing: -0.5rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+.fndBanner h5 {
+  color: var(--clr-secondary);
+  font-style: italic;
+  font-weight: 200;
+  font-size: 2rem;
+  font-family: var(--font-secondary);
+  text-align: center;
+}
+
+/* FOOD AND DRINKS CARDS */
+.foodanddinksBanner__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem;
+  flex-direction: column;
+  margin-bottom: 5rem;
+  margin-top: -5rem;
+}
+
+/* F&D - MOBILE */
+@media screen and (max-width: 520px) {
+  .fndBanner {
+    padding-top: 5rem;
+  }
+  .fndBanner img {
+    max-width: 55rem;
+  }
+  .fndBanner h1 {
+    font-size: 5rem;
+  }
+  .fndBanner__wrapper {
+    padding: 5rem 0;
+  }
+  .fndBanner h5 {
+    font-size: 1.8rem;
+  }
+  .fndContent__wrapper {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
+
+/* DECORS MOBILE */
+@media screen and (max-width: 520px){
+  .decorsBanner{
+    padding-top: 10rem;
+  }
+  .decorsBanner h1{
+    font-size: 5rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.5rem;
+    line-height: 4rem;
+    text-align: center;
+  }
+  .decorsBanner h5{
+    font-size: 2rem;
+    letter-spacing: 0rem;
+  }
+  .decors{
+    padding: 2.5rem 0;
+  }
+  .decorsBanner__card h2{
+    font-size: 3rem;
+    line-height: 4rem;
+   }
+   .decorsBanner__card{
+    grid-template-columns: 1fr;
+    gap: 3rem;
+   }
+   .decors__wrapper{
+    grid-template-columns: 1fr;
+    gap: unset;
+   }
+   .decorsBanner img{
+    width: 100%;
+}
+}
+
 /* REPEATABLE PATTERN */
 .btn {
   background-color: transparent;
@@ -1149,7 +1344,7 @@ margin-bottom: 2rem;
   line-height: 2rem;
   margin-bottom: 0.5rem;
 }
-.item__details small{
+.item__details small {
   font-size: 1.3rem;
   font-style: italic;
   font-weight: 200;
